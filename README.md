@@ -10,6 +10,31 @@ Java servlets are compiled Java classes that implement all or part of a web appl
 
 ## HTML forms
 
+Web pages use forms to allow users to submit data.  Here's an example of a simple form.
+
+The HTML code looks like this -
+
+```
+<html>
+  <body>
+    <h1>Simple Form</h1>
+    <form action="EmailForm" method="GET">
+        Email <input type="email" name="email">
+        <br>
+        Password <input type="password" name="password">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
+```
+
+See the MDN introduction to writing web forms https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form
+
+In this demo you'll find two forms, simple.html and index.html. Both forms do the same thing but index.html has a more polished look. The styling for index.html was achieved by using the Bootstrap open-source front-end framework.
+
+See the Bootstrap documentation for more examples https://getbootstrap.com/docs/4.1/components/forms/
+
 
 ## Running the servlet
 
